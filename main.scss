@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  div#field {
+    width: 80%;
+    height: 20vw;
+    background: lightgreen;
+    position: absolute;
+    div#pot {
+      background: green;
+      border-radius: 4vw;
+      width: 8vw;
+      height: 8vw;
+      position: relative;
+      opacity: 0.04;
+    }
+  }
+  #alert {
+color: white;
+margin: 5vw;
+  }
+}

@@ -1,26 +1,54 @@
 body {
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: 0.5vw;
+  background: lightgreen;
+}
+
+body h3 {
+  position: absolute;
+  top: 2.5vw;
+  font-size: 2vw;
+  text-align: center;
+  border-radius: 2vw;
+  color: grey;
+  margin: 1vw;
+  padding: 1vw 2vw;
+}
+
+body h3:hover {
+  cursor: pointer;
 }
 
 body div#field {
   width: 80%;
-  height: 20vw;
-  background: lightgreen;
+  height: 25vw;
+  background-image: url(./field.jpg);
   position: absolute;
+  top: 10vw;
+}
+
+body div#field:hover {
+  cursor: crosshair;
 }
 
 body div#field div#pot {
-  background: green;
+  background-image: url(./gold.jpg);
   border-radius: 4vw;
   width: 8vw;
   height: 8vw;
   position: relative;
-  opacity: 0.04;
+  opacity: 0.1;
 }
 
 body #alert {
+  position: absolute;
+  top: 35vw;
+  width: 50%;
+  font-size: 2.5vw;
+  text-align: center;
+  background: green;
+  border-radius: 2vw;
   color: white;
-  margin: 5vw;
+  margin: 1vw;
 }

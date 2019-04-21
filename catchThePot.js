@@ -18,7 +18,6 @@ let potY;
 field.addEventListener('click',(ev)=> {
   fieldX = ev.clientX;
   fieldY = ev.clientY;
-  console.log(fieldX);
 
   if (potX === fieldX && potY === fieldY) {
     alert.innerText = 'Got it !';

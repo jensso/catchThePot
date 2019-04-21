@@ -2,18 +2,20 @@ body {
   display: flex;
   justify-content: center;
   margin: 0.5vw;
-  background: lightgreen;
+  background: olive;
   h3 {
     position: absolute;
     top: 2.5vw;
     font-size: 2vw;
     text-align: center;
     border-radius: 2vw;
-    color: grey;
+    color: silver;
+    text-shadow: -0.2vw 0.4vw 0.8vw black;
     margin: 1vw;
     padding: 1vw 2vw;
     &:hover {
       cursor: pointer;
+      opacity: 0.8;
     }
   }
 

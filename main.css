@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 0.5vw;
-  background: lightgreen;
+  background: olive;
 }
 
 body h3 {
@@ -11,13 +11,15 @@ body h3 {
   font-size: 2vw;
   text-align: center;
   border-radius: 2vw;
-  color: grey;
+  color: silver;
+  text-shadow: -0.2vw 0.4vw 0.8vw black;
   margin: 1vw;
   padding: 1vw 2vw;
 }
 
 body h3:hover {
   cursor: pointer;
+  opacity: 0.8;
 }
 
 body div#field {
